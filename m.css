@@ -1,0 +1,62 @@
+/*
+ * date:	2002-10-14
+ * info:	http://inspire.server101.com/js/m/
+ */
+
+/* menu */
+#mx {
+	font-size: .9em;
+	font-weight: bold;
+}
+#mx, #mx ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+#mx ul {
+	font-weight: normal;
+}
+#mx li {
+	border-bottom: 1px solid #333;
+}
+#mx ul li {
+	border-bottom: none;
+}
+#mx a {
+	display: block;
+	margin: 0;
+	padding: .2em;
+	text-decoration: none;
+}
+
+/* menu parent */
+#mx li.m {
+	position: relative;
+	width: 7.4em;
+}
+
+/* submenu indicator */
+#mx li.m a {
+	background: url(a.png) 100% 50% no-repeat;
+}
+#mx li.m a:hover {
+	background: #FC0 url(ah.png) 100% 50% no-repeat;
+}
+#mx li.m ul a, #mx li.m ul a:hover {
+	background-image: none;
+}
+
+/* popup menus */
+#mx li.m ul {
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 7.5em;
+	width: 12.4em;
+	border: 1px solid #333;
+	background: #FFF;
+}
+/* width of popup menu */
+#mx li.m ul a {
+	width: 12em;
+}
